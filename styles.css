@@ -54,3 +54,15 @@ body {
 .random-button:hover {
     background: rgba(0, 0, 0, 0.4) !important;
 }
+
+@media (max-width: 700px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .random-button {
+        font-size: 1em !important;
+        padding: 6px !important;
+    }
+  }
