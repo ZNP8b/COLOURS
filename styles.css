@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+@media screen and (min-width: 701px) {
+
+    .random-button {
+        font-size: 1.5em;
+        padding: 10px;
+        border: none;
+        outline: none;
+        color: #fff;
+        transition: background .2s ease;
+        border-radius: 7px;
+    }
+  }
+
 body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
@@ -30,7 +43,7 @@ body {
     cursor: pointer;
 }
 
-.col button {
+.col .lock-button {
     border: none;
     outline: none;
     background: transparent;
@@ -55,14 +68,18 @@ body {
     background: rgba(0, 0, 0, 0.4) !important;
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
     body {
-        display: flex;
-        flex-direction: column;
+        flex-direction: column !important;
     }
 
     .random-button {
         font-size: 1em !important;
         padding: 6px !important;
+        border: none;
+        outline: none;
+        color: #fff;
+        transition: background .2s ease;
+        border-radius: 7px;
     }
   }
