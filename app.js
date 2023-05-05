@@ -17,6 +17,8 @@ document.addEventListener('click', (event) => {
     node.classList.toggle('fa-lock');
   } else if (type === 'copy') {
     copyToClipBoard(event.target.innerHTML);
+  } else if (type === 'random-button') {
+    setRandomColors();
   }
 });
 
