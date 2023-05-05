@@ -45,3 +45,12 @@ body {
     background: rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
+
+.random-button {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.random-button:hover {
+    background: rgba(0, 0, 0, 0.4) !important;
+}
